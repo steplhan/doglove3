@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Doglove</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_example">Example</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_registrar_mascota">Registrar Mascota</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_veterinarias">Veterinarias</string>
+    <string name="titulo_progress">Cargando</string>
+    <string name="mensaje_progress">Cargando...</string>
+</resources>

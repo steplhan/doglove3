@@ -1,0 +1,139 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout  android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+
+            tools:context=".LoginActivity"
+            android:background="#6699FF"
+            android:orientation="vertical"
+
+            android:weightSum="8">
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="221dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/doglove"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:textSize="25dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Foto: "
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/tviFoto" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/iviAddFoto"
+                    android:src="@drawable/image_add" />
+
+            </LinearLayout>
+
+
+            <EditText
+                    android:id="@+id/eteNombre"
+                    android:hint=" Mi nombre(mascota)"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/background_light"
+                    android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                >
+                <TextView
+                    android:id="@+id/tviGenero"
+                    android:text="Genero:"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/rgrGenero">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rbuMacho"
+                        android:text="Macho"
+                        android:textSize="20dp"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rbuHembra"
+                        android:text="Hembra"
+                        android:textSize="20dp"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tviFechaNac"
+                    android:text="Fecha de nacimiento:"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"/>
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dpiFecha"
+                android:layout_gravity="center_horizontal"
+                android:calendarViewShown="false"
+                android:layout_marginBottom="20dp"/>
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spiRaza"
+            android:layout_gravity="center_horizontal"
+            android:spinnerMode="dialog"
+            android:layout_marginBottom="20dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/butRegistroMascota"
+            android:text="Registrar mascota"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tviNombreMascota"
+        android:text="Nombre de la mascota"/-->
+
+
+
